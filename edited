@@ -24,7 +24,7 @@ void MyFun(int time_quantum, int c)
     printf("\n-------\t---------------\t------------\n\n");
       for(time=0,i=0;remain!=0;)
       {
-            if(rt[i]<=time_quantum && rt[i]>0)
+            if(rt[i]<=time_quantum && rt[i]>0)//checking 
            {
                   time+=rt[i];
                   rt[i]=0;
