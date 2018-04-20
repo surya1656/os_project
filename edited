@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-void clr();
+void clr();//clear the screen
 
 void MyFun(int time_quantum, int c)
 {
