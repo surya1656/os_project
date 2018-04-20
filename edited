@@ -35,7 +35,7 @@ void MyFun(int time_quantum, int c)
                   rt[i]-=time_quantum;
                   time+=time_quantum;
             }
-            if(rt[i]==0 && flag==1)
+            if(rt[i]==0 && flag==1)//check
             {
                   remain--;
                   printf("P[%d]\t|\t%d\t|\t%d\n",i+1,time-at[i],time-at[i]-bt[i]);
